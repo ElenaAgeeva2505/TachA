@@ -1,0 +1,21 @@
+<nav>
+    <div>
+        <h1>TechPro</h1>
+        <ul>
+            <li><a>Главная</a></li>
+            <li><a routerLink="/catalog">Каталог товаров</a></li>
+        </ul>    
+    </div>
+</nav>
+<h1>Основные товары</h1>
+{{ BaseProduct | json}}
+<footer>
+    <h3>TechPro-магазин товаров</h3>
+    <h3>Сссылки</h3>
+    <ul>
+        <li><a>Главная</a></li>
+        <li><a routerLink="/catalog">Каталог товаров</a></li>
+    </ul>
+</footer>
+
+<router-outlet></router-outlet>
